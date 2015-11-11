@@ -10,6 +10,6 @@ def listcalc(a):
 
 updated_list = listcalc(a)
 print(updated_list)
-
+print("changes made in local for git")
 
 
