@@ -1,0 +1,12 @@
+a=[3,5,6,7,7,6,6,4,3]
+setvalue = set()
+duplicateelements =set()
+removedlist = []
+for i in a:
+    if i not in setvalue:
+        setvalue.add(i)
+        removedlist.append(i)
+    else:
+        duplicateelements.add(i)
+print("duplicateelements:",duplicateelements)
+print(removedlist)
